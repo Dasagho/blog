@@ -1,7 +1,7 @@
 baseURL = 'https://pepe05422.github.io/blog/'
 languageCode = 'en-us'
 title = "David's Blog"
-theme = 'hello-friend'
+theme = 'hello-friends'
 
 [params]
   contentTypeName = "posts"
