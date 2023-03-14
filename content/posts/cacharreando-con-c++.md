@@ -1,21 +1,20 @@
 ---
-title: "Cacharreando Con C++"
+title: "Playing with C++"
 date: 2023-03-09T18:50:40+01:00
 draft: true
 ---
 
-# Mi primera aventura con C++
+# My first adventure with C++
 
-Hola en el post de hoy vengo a comentaros como han sido mi primera toma de contacto con un proyecto más avanzado de C++, más allá de los pequeños programas que nos hacen hacer en la universidad.  
+Hi in this post I will talk about my first contact with a C++ project more advanced, beyond little programs made in college.  
 
-He de decir que me ha sorprendido en más de un aspecto el flujo de trabajo, para empezar he notado la imposición a aprender y adoptar varios lenguajes de apoyo como make, cmake para poder cimentar las reglas para compilar los proyectos en este lenguaje. Me disculpo por los que realmente saben del tema por si soy poco preciso con algún concepto pero queria dejar constancia de mi travesia en este proyecto.  
+I have to say that I was surprised in more than one respect the workflow, to begin with, I noticed the need of learn some extra support languages like make or cmake, which let me specify the rules and steps to compile the project. I apologize for these people who really know about the topic if I misspelled or I'm not very specific, but I wanted to put in writing my journey learning this language.   
 
-Para dar algo de contexto voy a explicar que este proyecto nace de una libreria para comunicarse con servidores de correo. En la empresa para la que trabajo hacen uso de [Vmime](https://github.com/kisli/vmime) para añadir la comunicación por medio de diferentes protocolos a los servidores de correo que usen nuestros clientes.  
-Pues desde hace unos meses varios clientes reportaon problemas para usar sus cuentas de un proveedor especifico que no mencionaré, el punto es que esta misma libreria está obsoleta, dejó de actualizarse en 2021 a fecha de hoy y no parece que vayan a volver a mantenerla en los próximos años.  
+To give some context, I will start explaining the project I'm doing requires a library in C++, to communicate with mail servers. At the company they use [Vmime](https://github.com/kisli/vmime) to incorporate the communication between mail servers through SMTP, IMAP or POP3.
+For several months some clients reported errors to user his accounts of a specific provider, the point, this library is deprecated, doesn't receive updates since 2021...
 
-Por una serie de desdichas acabó en mi la responsabilidad de arreglar este problema, de esto hará ya 3 meses y por el camino puedo decir que he experimentado la mayor mezcla de frustación y aprendizaje de mi tiempo como programador y estudiante.  
+For some reasons, I have to assume the responsability of take this deprecated project and modify to incorporate the functionality we need. 3 months ago, on the way I can say that I felt a lot of frustation and I learned a lot, more than in my whole life. 
 
-Pero tocó empezar a mirar el proyecto, por suerte he tenido a mi disposición todas las herramientas que podría necesitar, tengo una dilatada experiencia de navegar a través de código sin documentar y entremezclado, he podido disfrutar de un amplio tiempo acomodando conocimientos sobre los procolos de correo, de sus metodos de autenticación y sobretodo las excelentes clases de iniciación de c++ por parte de dos de los mejores ingenieros que he tenido oportunidad de conocer.
-Con todo me puse a estudiar la libreria como se compila, las principales clases que interfieren en mi cometido o sus dependecias.
+Fortunately I had all I will need, a huge expirience navigating through code without proper documentation, a really great amount of time understanding mail protocols, authentication methods, and above of all, some excelent initial c++ lectures, with one of the best engineer I never met as teacher.  
 
-Con esto empieza mi aventura en C++, donde relataré mis descubrimientos en este mismo blog para dejar constancia de ello.
+And this is how my journey starts, here I will talk about how I want contribute to this project, on the way I will make my first contribution to the open source. I'm really excited.
