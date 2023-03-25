@@ -1,7 +1,7 @@
 ---
 title: "Playing with C++"
 date: 2023-03-09T18:50:40+01:00
-draft: true
+draft: false
 ---
 
 # My first adventure with C++
