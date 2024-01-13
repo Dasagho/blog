@@ -18,7 +18,7 @@ jobs:
 
     - name: Setup Hugo
       run: |
-        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-amd64.deb
         sudo dpkg -i hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.deb
 
     - name: Build
