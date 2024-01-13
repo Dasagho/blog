@@ -6,7 +6,7 @@ on:
       - master  # Se ejecuta solo en la rama master
 
 env:
-  HUGO_VERSION: '0.112.0'  # Define aquí la versión de Hugo
+  HUGO_VERSION: '0.121.2'  # Define aquí la versión de Hugo
 
 jobs:
   deploy:
@@ -18,8 +18,8 @@ jobs:
 
     - name: Setup Hugo
       run: |
-        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-amd64.deb
-        sudo dpkg -i hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb
+        sudo dpkg -i hugo_extended_${{ env.HUGO_VERSION }}_linux-64.deb
 
     - name: Build
       run: hugo  # Compila el sitio con Hugo
