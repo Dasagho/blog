@@ -26,13 +26,12 @@ jobs:
     - name: List public directory
       run: ls -l public
 
-
-    - name: Deploy to GitHub Pages
+    - name: Deploy
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git checkout --orphan gh-pages
-        rm -rf * .[^.]*  # Elimina todo excepto el directorio 'public'
+        find . -maxdepth 1 ! -name 'public' ! -name '.git' ! -name '.' -exec rm -rf {} \;
         mv public/* .
         rm -rf public
         git add -A
