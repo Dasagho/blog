@@ -7,9 +7,9 @@
     <img src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" />
     {{ else }}
     <span class="logo__mark">{{ partial "greater-icon.html" . }}</span>
-    <span class="logo__text"
-      >{{ with $.Site.Title }}{{ . }}{{ else }}{{ $.Site.Title }}{{ end }}</span
-    >
+	<span class="logo__text">
+	    {{ $.Site.Params.title }}
+	</span>
     <span class="logo__cursor"></span>
   {{ end }}
 </a>

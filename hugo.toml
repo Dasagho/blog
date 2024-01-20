@@ -8,3 +8,4 @@ theme = 'hello-friends'
   defaultTheme = "dark"
   showMenuItems = 2
   showReadingTime = false
+  title = "David's Blog"
