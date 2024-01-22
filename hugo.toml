@@ -8,4 +8,9 @@ theme = 'hello-friends'
   defaultTheme = "dark"
   showMenuItems = 2
   showReadingTime = false
-  title = "David's Blog"
+  [languages]
+     [languages.en]
+       title = "David's Blog"
+       [languages.en.params.logo]
+         logoText = "David's Blog"
+

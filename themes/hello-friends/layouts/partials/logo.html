@@ -8,7 +8,7 @@
     {{ else }}
     <span class="logo__mark">{{ partial "greater-icon.html" . }}</span>
 	<span class="logo__text">
-	    {{ $.Site.Params.title }}
+	    {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}hello friend{{ end }}
 	</span>
     <span class="logo__cursor"></span>
   {{ end }}
