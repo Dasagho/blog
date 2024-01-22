@@ -4,8 +4,6 @@ date: 2023-03-09T18:50:40+01:00
 draft: false
 ---
 
-# My first adventure with C++
-
 Hi, in this post I will talk about my first contact with a more advanced C++ project beyond the little programs I made in college.  
 
 I have to say that I was surprised in more than one aspect about the workflow. To begin with, I noticed the need of learning some extra support languages like Make or Cmake, which let me specify the rules and steps to compile the project. I apologize to the people who really know about the topic if I misspelled or I'm not very specific, but I wanted to write down my journey learning this language.   
