@@ -1,5 +1,5 @@
 ---
-title: "Playing with C++"
+title: "Playing around with C++"
 date: 2023-03-09T18:50:40+01:00
 draft: false
 ---
